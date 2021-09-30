@@ -18,23 +18,23 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="plugins/fonts-google/fontgoogle.css" rel="stylesheet">
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<body class="dark-mode">
     <div class="wrapper">
         <!-- /.control-sidebar -->
-        
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2020-2021 <a href="#">Developed by SLEYERSX </a>.</strong>
+            All rights reserved.
+            <div class="float-right d-none d-sm-inline-block">
+                <b>Version</b> 0.01
+            </div>
+        </footer>
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
     </div>
     <!-- ./wrapper -->
-    <footer class="main-footer">
-        <strong>Copyright &copy; 2020-2021 <a href="#">Developed by SLEYERSX </a>.</strong>
-        All rights reserved.
-        <div class="float-right d-none d-sm-inline-block">
-            <b>Version</b> 0.01
-        </div>
-    </footer>
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-    </aside>
+
     <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
