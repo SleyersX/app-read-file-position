@@ -57,3 +57,4 @@
         http_response_code(400);
         echo "Ocorreu um erro durante upload do arquivos.\n";
     }
+?>
