@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>App Read File </title>
-    <link rel="icon" href="../favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- overlayScrollbars -->
@@ -18,7 +18,7 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="plugins/fonts-google/fontgoogle.css" rel="stylesheet">
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<body class="hold-transition dark-mode layout-fixed layout-navbar-fixed layout-footer-fixed">
     <div class="wrapper">
         <!-- /.control-sidebar -->
         <footer class="main-footer">
