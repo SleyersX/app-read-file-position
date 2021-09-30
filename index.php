@@ -18,7 +18,7 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="plugins/fonts-google/fontgoogle.css" rel="stylesheet">
 </head>
-<body class="dark-mode">
+<body class="hold-transition dark-mode sidebar-mini">
     <div class="wrapper">
         <!-- /.control-sidebar -->
         <footer class="main-footer">
