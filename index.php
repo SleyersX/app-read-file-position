@@ -18,8 +18,8 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="plugins/fonts-google/fontgoogle.css" rel="stylesheet">
 </head>
-<body class="hold-transition dark-mode sidebar-mini">
-    <div class="wrapper">
+<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+    <div class="container-fluid">
         <!-- /.control-sidebar -->
         <footer class="main-footer">
             <strong>Copyright &copy; 2020-2021 <a href="#">Developed by SLEYERSX </a>.</strong>
