@@ -45,7 +45,8 @@ class readFile
         return true;
     }
 
-    public function parse_csv_file($csvfile,$delimiter) {
+    public function parse_csv_file($csvfile,$delimiter)
+    {
         $csv = Array();
         $rowcount = 0;
         if (($handle = fopen($csvfile, "r")) !== FALSE) {
