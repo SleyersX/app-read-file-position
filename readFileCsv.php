@@ -22,7 +22,6 @@
         define("template", parse_ini_file('templates.ini', true));
         $fileName = $fileRead["name"];
 
-
         $response['response'] = array();
         //$data= array();
 
@@ -53,7 +52,8 @@
                     $end = (($start - 1) + $value);
                     $x = substr($line, ($start - 1), $value);
                     if($parse == 'txt'){
-                        printf("%s=\"%s\"\n", $key, $x);
+                        header('Content-Type: application/text; charset=utf-8');
+                        printf("%s[%s]=\"%s\"\n", $key, $value, $x);
                     }elseif ($parse == 'json'){
                         $array=array_map(null,
                             array("atributo"=>$key,
@@ -91,6 +91,8 @@
                 }
             }
         }
+        unlink($fileName);
+        unlink($fileTemplate["name"]);
     }
     else {
         http_response_code(400);
